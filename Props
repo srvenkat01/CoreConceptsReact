@@ -1,0 +1,14 @@
+--------Props---------
+import React from "react";
+
+
+const Contact=({userName,Age})=>{
+    return(
+        <>
+        <h3>Hellow, I am {userName} Age is: {Age}</h3>
+
+        </>
+        
+    );
+}
+export default Contact;
